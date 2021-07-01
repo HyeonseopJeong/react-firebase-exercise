@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import {firebase, firebaseApp, db} from './firebase'
 
 function App() {
-
   const [docData, setDocData] = useState('');
   const [colId, setColId] = useState('');
   const [docId, setDocId] = useState('');
